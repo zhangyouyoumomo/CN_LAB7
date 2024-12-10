@@ -1,4 +1,5 @@
-// 引入必要的头文件
+// Server.cpp
+
 #include <iostream>
 #include <string>
 #include <cstring>          // 用于 memset
@@ -57,13 +58,39 @@ void handleClient(int clientSocket, sockaddr_in clientAddress) {
     ssize_t bytesSent = send(clientSocket, greetingMessage, strlen(greetingMessage), 0);
     if (bytesSent < 0) {
         LOG(ERROR) << "发送消息失败。";
+        close(clientSocket);
+        return;
     } else {
         LOG(INFO) << "已向客户端发送问候消息。";
     }
 
+    // 持续处理客户端消息
+    char buffer[1024];
+    while (true) {
+        ssize_t bytesReceived = recv(clientSocket, buffer, sizeof(buffer) - 1, 0);
+        if (bytesReceived > 0) {
+            buffer[bytesReceived] = '\0';
+            LOG(INFO) << "收到来自 " << ipStr << ":" << port << " 的消息: " << buffer;
+
+            // 这里可以根据需要进行回复或其他处理
+            std::string response = "服务器已收到您的消息: " + std::string(buffer);
+            ssize_t sent = send(clientSocket, response.c_str(), response.size(), 0);
+            if (sent < 0) {
+                LOG(ERROR) << "发送响应消息失败。";
+                break;
+            }
+        } else if (bytesReceived == 0) {
+            LOG(INFO) << "客户端 " << ipStr << ":" << port << " 关闭了连接。";
+            break;
+        } else {
+            LOG(ERROR) << "接收数据失败。";
+            break;
+        }
+    }
+
     // 关闭客户端套接字
     close(clientSocket);
-    LOG(INFO) << "已关闭与客户端的连接。";
+    LOG(INFO) << "已关闭与客户端 " << ipStr << ":" << port << " 的连接。";
 }
 
 int main(int argc, char* argv[]) {
@@ -102,9 +129,6 @@ int main(int argc, char* argv[]) {
     }
     LOG(INFO) << "服务器正在监听端口 " << SERVER_PORT << " ...";
 
-    // 存储线程对象的容器
-    std::vector<std::thread> threads;
-
     while (true) {
         // 接受新的连接请求
         clientSocket = accept(serverSocket, (struct sockaddr*)&clientAddress, &clientAddressLength);
@@ -113,19 +137,9 @@ int main(int argc, char* argv[]) {
             continue; // 继续接受下一个连接
         }
 
-        // 创建新线程处理客户端请求
-        threads.emplace_back(std::thread(handleClient, clientSocket, clientAddress));
-
-        // 为了防止线程容器无限增长，可以在此处清理已经完成的线程
-        // 使用 C++11 的 joinable 和 join 方法
-        for (auto it = threads.begin(); it != threads.end(); ) {
-            if (it->joinable()) {
-                it->join(); // 等待线程完成
-                it = threads.erase(it); // 移除已完成的线程
-            } else {
-                ++it;
-            }
-        }
+        // 创建新线程处理客户端请求，并分离线程
+        std::thread(handleClient, clientSocket, clientAddress).detach();
+        LOG(INFO) << "已创建新线程处理客户端连接。";
     }
 
     // 关闭服务器套接字（实际上这里永远不会执行到）

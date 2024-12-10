@@ -1,0 +1,5 @@
+Log file created at: 2024/12/10 18:00:16
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1210 18:00:16.983085 37124 Client.cpp:48] [Info] Connected to server at 127.0.0.1:5869
+I1210 18:00:16.983731 37124 Client.cpp:54] [Info] Message from server: Hello from server!

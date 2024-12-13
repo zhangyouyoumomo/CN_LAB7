@@ -29,9 +29,11 @@ std::queue<Packet> msgQueue;
 std::atomic<bool> running(true);
 
 // 生产者线程：接收服务器数据
-void producer(int clientSocket) {
+void producer(int clientSocket, int localPort) {
     char buffer[1024];
+    int count =0;
     while (running) {
+        count ++;
         ssize_t bytesReceived = recv(clientSocket, buffer, sizeof(buffer) - 1, 0);
         if (bytesReceived > 0) {
             buffer[bytesReceived] = '\0';
@@ -45,21 +47,27 @@ void producer(int clientSocket) {
             }
             cv.notify_one(); // 通知消费者
         } else if (bytesReceived == 0) {
-            LOG(INFO) << "服务器关闭连接。";
-            running = false;
-            cv.notify_all();
+            LOG(INFO) << "服务器未发送数据。";
+            LOG(INFO) << "counter =" << count;
+            if(count > 4){
+                running = false;
+                cv.notify_all();
+            }
             break;
         } else {
             LOG(ERROR) << "接收数据失败。";
-            running = false;
-            cv.notify_all();
+            if(count > 4){
+                running = false;
+                cv.notify_all();
+            }
             break;
         }
     }
 }
 
 // 消费者线程：处理并显示数据
-void consumer() {
+void consumer(int localPort) {
+    int messageCount = 0; // 计数器，记录接收的消息次数
     while (running) {
         std::unique_lock<std::mutex> lock(mtx);
         cv.wait(lock, []{ return !msgQueue.empty() || !running; });
@@ -70,7 +78,10 @@ void consumer() {
             lock.unlock();
             
             // 处理数据包，例如显示给用户
-            std::cout << "收到消息: " << pkt.data << std::endl;
+            messageCount++;
+            std::cout << "收到消息 #" << messageCount << ": " << pkt.data << std::endl;
+            LOG(INFO) << "Received message #" << messageCount << " from server (Client Local Port: " 
+                      << localPort << ").";
             
             lock.lock();
         }
@@ -80,7 +91,7 @@ void consumer() {
 int main(int argc, char* argv[]) {
     // 初始化 glog
     google::InitGoogleLogging(argv[0]);
-    FLAGS_log_dir = "/home/zimo/CN_LAB7/LogFile"; // 设置log文件保存路径
+    FLAGS_log_dir = "./logs"; // 设置log文件保存路径
     FLAGS_alsologtostderr = true; // 同时输出到标准错误
     FLAGS_colorlogtostderr = true;
     FLAGS_stop_logging_if_full_disk = true;
@@ -105,31 +116,41 @@ int main(int argc, char* argv[]) {
     LOG_IF(FATAL, connect(clientSocket, (struct sockaddr*)&serverAddress, sizeof(serverAddress)) < 0)
         << "[Error] 连接服务器失败";
 
-    LOG(INFO) << "[Info] 已连接到服务器 " << SERVER_ADDRESS << ":" << SERVER_PORT;
+    // 获取客户端本地端口号
+    struct sockaddr_in localAddress;
+    socklen_t localAddressLength = sizeof(localAddress);
+    if (getsockname(clientSocket, (struct sockaddr*)&localAddress, &localAddressLength) == -1) {
+        LOG(ERROR) << "获取本地地址失败。";
+    }
+    int localPort = ntohs(localAddress.sin_port);
+
+    LOG(INFO) << "[Info] 已连接到服务器 " << SERVER_ADDRESS << ":" << SERVER_PORT 
+              << " (Client Local Port: " << localPort << ").";
 
     // 启动生产者和消费者线程
-    std::thread prod(producer, clientSocket);
-    std::thread cons(consumer);
+    std::thread prod(producer, clientSocket, localPort);
+    std::thread cons(consumer, localPort);
 
-    // 主线程处理用户输入
-    std::string input;
-    while (running && std::getline(std::cin, input)) {
-        if (input == "exit") {
-            running = false;
-            break;
-        }
-        // 发送用户输入到服务器
-        ssize_t bytesSent = send(clientSocket, input.c_str(), input.size(), 0);
-        if (bytesSent < 0) {
-            LOG(ERROR) << "[Error] 发送数据失败";
-        } else {
-            LOG(INFO) << "已发送消息: " << input;
-        }
-    }
+    // // 主线程处理用户输入
+    // std::string input;
+    // while (running) {
+    //     std::getline(std::cin, input);
+    //     if (input == "exit") {
+    //         running = false;
+    //         break;
+    //     }
+    //     // 发送用户输入到服务器
+    //     ssize_t bytesSent = send(clientSocket, input.c_str(), input.size(), 0);
+    //     if (bytesSent < 0) {
+    //         LOG(ERROR) << "[Error] 发送数据失败";
+    //     } else {
+    //         LOG(INFO) << "已发送消息: " << input;
+    //     }
+    // }
 
-    // 关闭运行标志并通知线程
-    running = false;
-    cv.notify_all();
+    // // 关闭运行标志并通知线程
+    // running = true;
+    // cv.notify_all();
 
     // 等待生产者和消费者线程结束
     if (prod.joinable()) {
@@ -141,7 +162,7 @@ int main(int argc, char* argv[]) {
 
     // 关闭socket
     close(clientSocket);
-    LOG(INFO) << "客户端已关闭。";
+    LOG(INFO) << "客户端已关闭。 (Client Local Port: " << localPort << ")";
 
     google::ShutdownGoogleLogging();
     return 0;

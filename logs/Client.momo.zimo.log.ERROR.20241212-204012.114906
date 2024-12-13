@@ -1,0 +1,4 @@
+Log file created at: 2024/12/12 20:40:12
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F1212 20:40:12.056133 114906 Client.cpp:112] [Error] 连接服务器失败

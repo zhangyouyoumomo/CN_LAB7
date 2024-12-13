@@ -1,0 +1,6 @@
+Log file created at: 2024/12/12 20:40:10
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1212 20:40:10.054257 114873 Server.cpp:54] Server starting...
+I1212 20:40:10.054427 114873 Server.cpp:65] Socket created successfully.
+E1212 20:40:10.054451 114873 Server.cpp:75] Binding failed

@@ -1,0 +1,25 @@
+Log file created at: 2024/12/13 10:57:07
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 10:57:07.506356  5136 Server.cpp:56] Server starting...
+I1213 10:57:07.506597  5136 Server.cpp:67] Socket created successfully.
+I1213 10:57:07.506609  5136 Server.cpp:81] Binding successful on port 5869
+I1213 10:57:07.506613  5136 Server.cpp:89] Server listening on port 5869 with max queue: 20
+I1213 10:57:09.513409  5136 Server.cpp:104] A client has connected from 127.0.0.1:44196
+I1213 10:57:09.513543  5136 Server.cpp:104] A client has connected from 127.0.0.1:44200
+I1213 10:57:09.513592  5192 Server.cpp:34] Client thread started for 127.0.0.1:44200
+I1213 10:57:09.513656  5191 Server.cpp:34] Client thread started for 127.0.0.1:44196
+I1213 10:57:09.513693  5191 Server.cpp:43] Sent greeting message to 127.0.0.1:44196
+I1213 10:57:09.513701  5191 Server.cpp:43] Sent greeting message to 127.0.0.1:44196
+I1213 10:57:09.513712  5191 Server.cpp:43] Sent greeting message to 127.0.0.1:44196
+I1213 10:57:09.513727  5191 Server.cpp:50] Closed client connection for 127.0.0.1:44196
+I1213 10:57:09.514353  5192 Server.cpp:43] Sent greeting message to 127.0.0.1:44200
+I1213 10:57:09.514416  5192 Server.cpp:43] Sent greeting message to 127.0.0.1:44200
+I1213 10:57:09.514448  5192 Server.cpp:43] Sent greeting message to 127.0.0.1:44200
+I1213 10:57:09.514464  5192 Server.cpp:50] Closed client connection for 127.0.0.1:44200
+I1213 10:57:09.514345  5136 Server.cpp:104] A client has connected from 127.0.0.1:44208
+I1213 10:57:09.514590  5195 Server.cpp:34] Client thread started for 127.0.0.1:44208
+I1213 10:57:09.514626  5195 Server.cpp:43] Sent greeting message to 127.0.0.1:44208
+I1213 10:57:09.514634  5195 Server.cpp:43] Sent greeting message to 127.0.0.1:44208
+I1213 10:57:09.514640  5195 Server.cpp:43] Sent greeting message to 127.0.0.1:44208
+I1213 10:57:09.514654  5195 Server.cpp:50] Closed client connection for 127.0.0.1:44208

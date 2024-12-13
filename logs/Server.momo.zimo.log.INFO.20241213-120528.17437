@@ -1,0 +1,25 @@
+Log file created at: 2024/12/13 12:05:28
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 12:05:28.691120 17437 Server.cpp:63] Server starting on port 5869...
+I1213 12:05:28.691489 17437 Server.cpp:74] Socket created successfully on port 5869.
+I1213 12:05:28.691557 17437 Server.cpp:88] Binding successful on port 5869
+I1213 12:05:28.691576 17437 Server.cpp:96] Server listening on port 5869 with max queue: 20
+I1213 12:05:30.692533 17437 Server.cpp:112] A client has connected from 127.0.0.1:41304 (Server Port: 5869).
+I1213 12:05:30.692660 17484 Server.cpp:34] Client thread started for 127.0.0.1:41304 (Server Port: 5869)
+I1213 12:05:30.692716 17484 Server.cpp:47] Sent greeting message #1 to 127.0.0.1:41304 (Server Port: 5869)
+I1213 12:05:30.692744 17484 Server.cpp:47] Sent greeting message #2 to 127.0.0.1:41304 (Server Port: 5869)
+I1213 12:05:30.692764 17484 Server.cpp:47] Sent greeting message #3 to 127.0.0.1:41304 (Server Port: 5869)
+I1213 12:05:30.692790 17484 Server.cpp:56] Closed client connection for 127.0.0.1:41304 (Server Port: 5869)
+I1213 12:05:30.692822 17437 Server.cpp:112] A client has connected from 127.0.0.1:41316 (Server Port: 5869).
+I1213 12:05:30.693873 17489 Server.cpp:34] Client thread started for 127.0.0.1:41316 (Server Port: 5869)
+I1213 12:05:30.693873 17437 Server.cpp:112] A client has connected from 127.0.0.1:41322 (Server Port: 5869).
+I1213 12:05:30.694001 17489 Server.cpp:47] Sent greeting message #1 to 127.0.0.1:41316 (Server Port: 5869)
+I1213 12:05:30.694015 17489 Server.cpp:47] Sent greeting message #2 to 127.0.0.1:41316 (Server Port: 5869)
+I1213 12:05:30.694021 17489 Server.cpp:47] Sent greeting message #3 to 127.0.0.1:41316 (Server Port: 5869)
+I1213 12:05:30.694032 17489 Server.cpp:56] Closed client connection for 127.0.0.1:41316 (Server Port: 5869)
+I1213 12:05:30.694111 17490 Server.cpp:34] Client thread started for 127.0.0.1:41322 (Server Port: 5869)
+I1213 12:05:30.694149 17490 Server.cpp:47] Sent greeting message #1 to 127.0.0.1:41322 (Server Port: 5869)
+I1213 12:05:30.694264 17490 Server.cpp:47] Sent greeting message #2 to 127.0.0.1:41322 (Server Port: 5869)
+I1213 12:05:30.694306 17490 Server.cpp:47] Sent greeting message #3 to 127.0.0.1:41322 (Server Port: 5869)
+I1213 12:05:30.694337 17490 Server.cpp:56] Closed client connection for 127.0.0.1:41322 (Server Port: 5869)

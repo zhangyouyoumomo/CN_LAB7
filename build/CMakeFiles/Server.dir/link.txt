@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Server.dir/Server/Server.cpp.o -o bin/Server  /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0 /usr/lib/x86_64-linux-gnu/libunwind.so /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 

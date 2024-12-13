@@ -1,0 +1,87 @@
+Log file created at: 2024/12/12 19:13:25
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1212 19:13:25.813781 93877 Server.cpp:56] Server starting...
+I1212 19:13:25.814019 93877 Server.cpp:67] Socket created successfully.
+I1212 19:13:25.814029 93877 Server.cpp:81] Binding successful on port 5869
+I1212 19:13:25.814033 93877 Server.cpp:89] Server listening on port 5869 with max queue: 20
+I1212 19:13:27.813143 93877 Server.cpp:104] A client has connected from 127.0.0.1:56704
+I1212 19:13:27.813274 93902 Server.cpp:34] Client thread started for 127.0.0.1:56704
+I1212 19:13:27.813331 93902 Server.cpp:42] Sent greeting message to 127.0.0.1:56704
+I1212 19:13:27.813359 93902 Server.cpp:50] Closed client connection for 127.0.0.1:56704
+I1212 19:13:29.816032 93877 Server.cpp:104] A client has connected from 127.0.0.1:35488
+I1212 19:13:29.816246 93914 Server.cpp:34] Client thread started for 127.0.0.1:35488
+I1212 19:13:29.816323 93914 Server.cpp:42] Sent greeting message to 127.0.0.1:35488
+I1212 19:13:29.816371 93914 Server.cpp:50] Closed client connection for 127.0.0.1:35488
+I1212 19:13:31.816818 93877 Server.cpp:104] A client has connected from 127.0.0.1:35496
+I1212 19:13:31.817008 93965 Server.cpp:34] Client thread started for 127.0.0.1:35496
+I1212 19:13:31.817078 93965 Server.cpp:42] Sent greeting message to 127.0.0.1:35496
+I1212 19:13:31.817142 93965 Server.cpp:50] Closed client connection for 127.0.0.1:35496
+I1212 19:13:33.819687 93877 Server.cpp:104] A client has connected from 127.0.0.1:35508
+I1212 19:13:33.819914 93982 Server.cpp:34] Client thread started for 127.0.0.1:35508
+I1212 19:13:33.820025 93982 Server.cpp:42] Sent greeting message to 127.0.0.1:35508
+I1212 19:13:33.820073 93982 Server.cpp:50] Closed client connection for 127.0.0.1:35508
+I1212 19:13:35.820941 93877 Server.cpp:104] A client has connected from 127.0.0.1:35512
+I1212 19:13:35.821071 94006 Server.cpp:34] Client thread started for 127.0.0.1:35512
+I1212 19:13:35.821123 94006 Server.cpp:42] Sent greeting message to 127.0.0.1:35512
+I1212 19:13:35.821136 94006 Server.cpp:50] Closed client connection for 127.0.0.1:35512
+I1212 19:14:34.788445 93877 Server.cpp:104] A client has connected from 127.0.0.1:57752
+I1212 19:14:34.788594 94356 Server.cpp:34] Client thread started for 127.0.0.1:57752
+I1212 19:14:34.788646 94356 Server.cpp:42] Sent greeting message to 127.0.0.1:57752
+I1212 19:14:34.788682 94356 Server.cpp:50] Closed client connection for 127.0.0.1:57752
+I1212 19:14:36.789814 93877 Server.cpp:104] A client has connected from 127.0.0.1:57758
+I1212 19:14:36.790347 94369 Server.cpp:34] Client thread started for 127.0.0.1:57758
+I1212 19:14:36.790470 94369 Server.cpp:42] Sent greeting message to 127.0.0.1:57758
+I1212 19:14:36.790525 94369 Server.cpp:50] Closed client connection for 127.0.0.1:57758
+I1212 19:14:38.790825 93877 Server.cpp:104] A client has connected from 127.0.0.1:37960
+I1212 19:14:38.790956 94390 Server.cpp:34] Client thread started for 127.0.0.1:37960
+I1212 19:14:38.791007 94390 Server.cpp:42] Sent greeting message to 127.0.0.1:37960
+I1212 19:14:38.791049 94390 Server.cpp:50] Closed client connection for 127.0.0.1:37960
+I1212 19:14:40.794137 93877 Server.cpp:104] A client has connected from 127.0.0.1:37966
+I1212 19:14:40.794382 94414 Server.cpp:34] Client thread started for 127.0.0.1:37966
+I1212 19:14:40.794463 94414 Server.cpp:42] Sent greeting message to 127.0.0.1:37966
+I1212 19:14:40.794520 94414 Server.cpp:50] Closed client connection for 127.0.0.1:37966
+I1212 19:14:42.795428 93877 Server.cpp:104] A client has connected from 127.0.0.1:37978
+I1212 19:14:42.795643 94425 Server.cpp:34] Client thread started for 127.0.0.1:37978
+I1212 19:14:42.795729 94425 Server.cpp:42] Sent greeting message to 127.0.0.1:37978
+I1212 19:14:42.795768 94425 Server.cpp:50] Closed client connection for 127.0.0.1:37978
+I1212 19:18:12.381218 93877 Server.cpp:104] A client has connected from 127.0.0.1:55176
+I1212 19:18:12.381480 95357 Server.cpp:34] Client thread started for 127.0.0.1:55176
+I1212 19:18:12.381553 95357 Server.cpp:42] Sent greeting message to 127.0.0.1:55176
+I1212 19:18:12.381603 95357 Server.cpp:50] Closed client connection for 127.0.0.1:55176
+I1212 19:18:14.381837 93877 Server.cpp:104] A client has connected from 127.0.0.1:55190
+I1212 19:18:14.381983 95368 Server.cpp:34] Client thread started for 127.0.0.1:55190
+I1212 19:18:14.382042 95368 Server.cpp:42] Sent greeting message to 127.0.0.1:55190
+I1212 19:18:14.382073 95368 Server.cpp:50] Closed client connection for 127.0.0.1:55190
+I1212 19:18:16.384325 93877 Server.cpp:104] A client has connected from 127.0.0.1:55194
+I1212 19:18:16.384577 95390 Server.cpp:34] Client thread started for 127.0.0.1:55194
+I1212 19:18:16.384646 95390 Server.cpp:42] Sent greeting message to 127.0.0.1:55194
+I1212 19:18:16.384683 95390 Server.cpp:50] Closed client connection for 127.0.0.1:55194
+I1212 19:18:18.385666 93877 Server.cpp:104] A client has connected from 127.0.0.1:55210
+I1212 19:18:18.385854 95412 Server.cpp:34] Client thread started for 127.0.0.1:55210
+I1212 19:18:18.385967 95412 Server.cpp:42] Sent greeting message to 127.0.0.1:55210
+I1212 19:18:18.386001 95412 Server.cpp:50] Closed client connection for 127.0.0.1:55210
+I1212 19:18:20.380287 93877 Server.cpp:104] A client has connected from 127.0.0.1:58782
+I1212 19:18:20.380676 95423 Server.cpp:34] Client thread started for 127.0.0.1:58782
+I1212 19:18:20.380878 95423 Server.cpp:42] Sent greeting message to 127.0.0.1:58782
+I1212 19:18:20.380924 95423 Server.cpp:50] Closed client connection for 127.0.0.1:58782
+I1212 19:32:28.600311 93877 Server.cpp:104] A client has connected from 127.0.0.1:39890
+I1212 19:32:28.607187 98304 Server.cpp:34] Client thread started for 127.0.0.1:39890
+I1212 19:32:28.607308 98304 Server.cpp:42] Sent greeting message to 127.0.0.1:39890
+I1212 19:32:28.607327 98304 Server.cpp:50] Closed client connection for 127.0.0.1:39890
+I1212 19:32:30.601855 93877 Server.cpp:104] A client has connected from 127.0.0.1:39898
+I1212 19:32:30.602000 98313 Server.cpp:34] Client thread started for 127.0.0.1:39898
+I1212 19:32:30.602053 98313 Server.cpp:42] Sent greeting message to 127.0.0.1:39898
+I1212 19:32:30.602082 98313 Server.cpp:50] Closed client connection for 127.0.0.1:39898
+I1212 19:32:32.606736 93877 Server.cpp:104] A client has connected from 127.0.0.1:49270
+I1212 19:32:32.606956 98342 Server.cpp:34] Client thread started for 127.0.0.1:49270
+I1212 19:32:32.607038 98342 Server.cpp:42] Sent greeting message to 127.0.0.1:49270
+I1212 19:32:32.607059 98342 Server.cpp:50] Closed client connection for 127.0.0.1:49270
+I1212 19:32:34.607069 93877 Server.cpp:104] A client has connected from 127.0.0.1:49272
+I1212 19:32:34.607216 98358 Server.cpp:34] Client thread started for 127.0.0.1:49272
+I1212 19:32:34.607244 98358 Server.cpp:42] Sent greeting message to 127.0.0.1:49272
+I1212 19:32:34.607254 98358 Server.cpp:50] Closed client connection for 127.0.0.1:49272
+I1212 19:32:36.608791 93877 Server.cpp:104] A client has connected from 127.0.0.1:49284
+I1212 19:32:36.608938 98377 Server.cpp:34] Client thread started for 127.0.0.1:49284
+I1212 19:32:36.608973 98377 Server.cpp:42] Sent greeting message to 127.0.0.1:49284
+I1212 19:32:36.608983 98377 Server.cpp:50] Closed client connection for 127.0.0.1:49284

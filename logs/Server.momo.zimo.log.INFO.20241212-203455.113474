@@ -1,0 +1,22 @@
+Log file created at: 2024/12/12 20:34:55
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1212 20:34:55.966986 113474 Server.cpp:57] Server starting...
+I1212 20:34:55.967339 113474 Server.cpp:68] Socket created successfully.
+I1212 20:34:55.967365 113474 Server.cpp:82] Binding successful on port 5869
+I1212 20:34:55.967387 113474 Server.cpp:90] Server listening on port 5869 with max queue: 20
+I1212 20:34:57.968750 113474 Server.cpp:105] A client has connected from 127.0.0.1:57802
+I1212 20:34:57.968910 113474 Server.cpp:105] A client has connected from 127.0.0.1:57800
+I1212 20:34:57.968917 113504 Server.cpp:34] Client thread started for 127.0.0.1:57802
+I1212 20:34:57.968952 113504 Server.cpp:42] Sent greeting message to 127.0.0.1:57802
+I1212 20:34:57.968972 113474 Server.cpp:105] A client has connected from 127.0.0.1:57812
+I1212 20:34:57.969031 113508 Server.cpp:34] Client thread started for 127.0.0.1:57812
+I1212 20:34:57.969066 113508 Server.cpp:42] Sent greeting message to 127.0.0.1:57812
+I1212 20:34:57.969072 113474 Server.cpp:105] A client has connected from 127.0.0.1:57822
+I1212 20:34:57.969067 113506 Server.cpp:34] Client thread started for 127.0.0.1:57800
+I1212 20:34:57.969169 113506 Server.cpp:42] Sent greeting message to 127.0.0.1:57800
+I1212 20:34:57.969188 113513 Server.cpp:34] Client thread started for 127.0.0.1:57822
+I1212 20:34:57.969216 113474 Server.cpp:105] A client has connected from 127.0.0.1:57824
+I1212 20:34:57.969220 113513 Server.cpp:42] Sent greeting message to 127.0.0.1:57822
+I1212 20:34:57.969568 113514 Server.cpp:34] Client thread started for 127.0.0.1:57824
+I1212 20:34:57.969599 113514 Server.cpp:42] Sent greeting message to 127.0.0.1:57824

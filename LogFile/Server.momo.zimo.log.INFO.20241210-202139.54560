@@ -1,8 +1,0 @@
-Log file created at: 2024/12/10 20:21:39
-Running on machine: momo
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I1210 20:21:39.796654 54560 Server.cpp:103] 服务器正在监听端口 5869 ...
-I1210 20:21:58.900267 54716 Server.cpp:52] 处理来自 127.0.0.1:40648 的客户端连接。
-I1210 20:21:58.900341 54716 Server.cpp:61] 已向客户端发送问候消息。
-I1210 20:21:58.900372 54716 Server.cpp:66] 已关闭与客户端的连接。
-I1210 21:05:31.849267 62315 Server.cpp:52] 处理来自 127.0.0.1:41526 的客户端连接。

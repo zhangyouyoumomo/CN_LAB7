@@ -1,0 +1,27 @@
+Log file created at: 2024/12/12 20:05:24
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1212 20:05:24.749995 106523 Server.cpp:56] Server starting...
+I1212 20:05:24.750177 106523 Server.cpp:67] Socket created successfully.
+I1212 20:05:24.750185 106523 Server.cpp:81] Binding successful on port 5869
+I1212 20:05:24.750188 106523 Server.cpp:89] Server listening on port 5869 with max queue: 20
+I1212 20:05:26.753475 106523 Server.cpp:104] A client has connected from 127.0.0.1:53028
+I1212 20:05:26.753667 106562 Server.cpp:34] Client thread started for 127.0.0.1:53028
+I1212 20:05:26.753677 106523 Server.cpp:104] A client has connected from 127.0.0.1:53030
+I1212 20:05:26.753748 106562 Server.cpp:42] Sent greeting message to 127.0.0.1:53028
+I1212 20:05:26.753780 106562 Server.cpp:50] Closed client connection for 127.0.0.1:53028
+I1212 20:05:26.753888 106523 Server.cpp:104] A client has connected from 127.0.0.1:53046
+I1212 20:05:26.753892 106563 Server.cpp:34] Client thread started for 127.0.0.1:53030
+I1212 20:05:26.754047 106523 Server.cpp:104] A client has connected from 127.0.0.1:53048
+I1212 20:05:26.754081 106563 Server.cpp:42] Sent greeting message to 127.0.0.1:53030
+I1212 20:05:26.754082 106564 Server.cpp:34] Client thread started for 127.0.0.1:53046
+I1212 20:05:26.754190 106563 Server.cpp:50] Closed client connection for 127.0.0.1:53030
+I1212 20:05:26.754281 106564 Server.cpp:42] Sent greeting message to 127.0.0.1:53046
+I1212 20:05:26.754396 106564 Server.cpp:50] Closed client connection for 127.0.0.1:53046
+I1212 20:05:26.755050 106523 Server.cpp:104] A client has connected from 127.0.0.1:53052
+I1212 20:05:26.755064 106565 Server.cpp:34] Client thread started for 127.0.0.1:53048
+I1212 20:05:26.755188 106565 Server.cpp:42] Sent greeting message to 127.0.0.1:53048
+I1212 20:05:26.755216 106565 Server.cpp:50] Closed client connection for 127.0.0.1:53048
+I1212 20:05:26.755219 106566 Server.cpp:34] Client thread started for 127.0.0.1:53052
+I1212 20:05:26.755246 106566 Server.cpp:42] Sent greeting message to 127.0.0.1:53052
+I1212 20:05:26.755283 106566 Server.cpp:50] Closed client connection for 127.0.0.1:53052

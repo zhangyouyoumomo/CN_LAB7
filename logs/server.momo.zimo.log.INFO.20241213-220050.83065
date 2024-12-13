@@ -1,0 +1,25 @@
+Log file created at: 2024/12/13 22:00:50
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 22:00:50.724413 83065 Server.cpp:168] Server starting on port 5869...
+I1213 22:00:50.730415 83065 Server.cpp:184] Socket created successfully on port 5869.
+I1213 22:00:50.730449 83065 Server.cpp:198] Binding successful on port 5869
+I1213 22:00:50.730469 83065 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 22:00:57.093469 83065 Server.cpp:244] A client has connected from 127.0.0.1:50926 (Server Port: 5869).
+I1213 22:00:57.093593 83138 Server.cpp:54] Client thread started for 127.0.0.1:50926 (Client ID: 1)
+I1213 22:00:57.753461 83138 Server.cpp:59] Received packet of type 1 from 127.0.0.1:50926 (Client ID: 1)
+I1213 22:00:57.753557 83138 Server.cpp:148] Sent response to 127.0.0.1:50926 (Client ID: 1)
+I1213 22:00:58.519353 83138 Server.cpp:59] Received packet of type 1 from 127.0.0.1:50926 (Client ID: 1)
+I1213 22:00:58.519412 83138 Server.cpp:148] Sent response to 127.0.0.1:50926 (Client ID: 1)
+I1213 22:01:16.152154 83065 Server.cpp:244] A client has connected from 127.0.0.1:46122 (Server Port: 5869).
+I1213 22:01:16.152276 83293 Server.cpp:54] Client thread started for 127.0.0.1:46122 (Client ID: 2)
+I1213 22:01:17.010728 83293 Server.cpp:59] Received packet of type 4 from 127.0.0.1:46122 (Client ID: 2)
+I1213 22:01:17.010756 83293 Server.cpp:134] Client 127.0.0.1:46122 (ID: 2) requested disconnection.
+I1213 22:01:17.010895 83293 Server.cpp:152] Client 127.0.0.1:46122 (ID: 2) disconnected. Reason: Client requested disconnection.
+I1213 22:01:17.010921 83293 Server.cpp:161] Closed client connection for 127.0.0.1:46122 (Client ID: 2)
+I1213 22:02:07.921227 83065 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 22:02:07.926935 83065 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 22:02:07.927026 83065 Server.cpp:280] Sent DISCONNECT to Client 1
+I1213 22:02:07.927253 83138 Server.cpp:152] Client 127.0.0.1:50926 (ID: 1) disconnected. Reason: Failed to receive packet length.
+I1213 22:02:07.927275 83138 Server.cpp:161] Closed client connection for 127.0.0.1:50926 (Client ID: 1)
+I1213 22:02:07.927323 83065 Server.cpp:295] Server shut down gracefully.

@@ -1,0 +1,19 @@
+Log file created at: 2024/12/13 21:46:00
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:46:00.587430 79092 Client.cpp:270] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 36846).
+I1213 21:46:01.483554 79104 Client.cpp:215] 已发送请求类型 1
+I1213 21:46:01.483737 79103 Client.cpp:93] Received response from server: Fri Dec 13 21:46:01 2024
+ (Client Local Port: 36846).
+I1213 21:46:02.945588 79104 Client.cpp:215] 已发送请求类型 1
+I1213 21:46:02.945742 79103 Client.cpp:93] Received response from server: Fri Dec 13 21:46:02 2024
+ (Client Local Port: 36846).
+I1213 21:46:08.497153 79104 Client.cpp:215] 已发送请求类型 1
+I1213 21:46:08.497293 79103 Client.cpp:93] Received response from server: Fri Dec 13 21:46:08 2024
+ (Client Local Port: 36846).
+I1213 21:46:14.105804 79104 Client.cpp:215] 已发送请求类型 1
+I1213 21:46:14.105950 79103 Client.cpp:93] Received response from server: Fri Dec 13 21:46:14 2024
+ (Client Local Port: 36846).
+I1213 21:46:18.665166 79092 Client.cpp:32] Received exit signal (2). Shutting down client...
+I1213 21:46:49.323957 79092 Client.cpp:32] Received exit signal (1). Shutting down client...
+I1213 21:46:49.998916 79092 Client.cpp:302] 客户端已关闭。 (Client Local Port: 36846)

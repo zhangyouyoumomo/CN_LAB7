@@ -1,0 +1,6 @@
+Log file created at: 2024/12/13 21:21:09
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:21:09.652698 73315 Client.cpp:156] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 56812).
+I1213 21:21:11.992401 73315 Client.cpp:218] Sent DISCONNECT request.
+I1213 21:21:11.992565 73315 Client.cpp:261] 客户端已关闭。 (Client Local Port: 56812)

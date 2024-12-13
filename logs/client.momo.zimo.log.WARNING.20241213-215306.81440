@@ -1,0 +1,4 @@
+Log file created at: 2024/12/13 21:53:06
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F1213 21:53:06.512987 81440 Client.cpp:266] [Error] Connection to server failed.

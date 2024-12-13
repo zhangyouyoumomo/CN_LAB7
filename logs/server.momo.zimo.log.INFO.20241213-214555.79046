@@ -1,0 +1,23 @@
+Log file created at: 2024/12/13 21:45:55
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:45:55.559528 79046 Server.cpp:168] Server starting on port 5869...
+I1213 21:45:55.559701 79046 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:45:55.559710 79046 Server.cpp:198] Binding successful on port 5869
+I1213 21:45:55.559713 79046 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:46:00.587443 79046 Server.cpp:244] A client has connected from 127.0.0.1:36846 (Server Port: 5869).
+I1213 21:46:00.587596 79101 Server.cpp:54] Client thread started for 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:01.483568 79101 Server.cpp:59] Received packet of type 1 from 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:01.483649 79101 Server.cpp:148] Sent response to 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:02.945611 79101 Server.cpp:59] Received packet of type 1 from 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:02.945676 79101 Server.cpp:148] Sent response to 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:08.497170 79101 Server.cpp:59] Received packet of type 1 from 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:08.497236 79101 Server.cpp:148] Sent response to 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:14.105819 79101 Server.cpp:59] Received packet of type 1 from 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:14.105890 79101 Server.cpp:148] Sent response to 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:49.998708 79046 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:46:49.998786 79046 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:46:49.998834 79046 Server.cpp:280] Sent DISCONNECT to Client 1
+I1213 21:46:49.998997 79101 Server.cpp:152] Client 127.0.0.1:36846 (ID: 1) disconnected. Reason: Failed to receive packet length.
+I1213 21:46:49.999024 79101 Server.cpp:161] Closed client connection for 127.0.0.1:36846 (Client ID: 1)
+I1213 21:46:49.999070 79046 Server.cpp:295] Server shut down gracefully.

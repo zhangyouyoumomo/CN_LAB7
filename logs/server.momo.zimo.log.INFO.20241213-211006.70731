@@ -1,0 +1,29 @@
+Log file created at: 2024/12/13 21:10:06
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:10:06.091683 70731 Server.cpp:168] Server starting on port 5869...
+I1213 21:10:06.092332 70731 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:10:06.092352 70731 Server.cpp:198] Binding successful on port 5869
+I1213 21:10:06.092356 70731 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:10:32.391017 70731 Server.cpp:244] A client has connected from 127.0.0.1:55680 (Server Port: 5869).
+I1213 21:10:32.391145 70954 Server.cpp:54] Client thread started for 127.0.0.1:55680 (Client ID: 1)
+I1213 21:10:34.355590 70954 Server.cpp:59] Received packet of type 2 from 127.0.0.1:55680 (Client ID: 1)
+I1213 21:10:34.355666 70954 Server.cpp:148] Sent response to 127.0.0.1:55680 (Client ID: 1)
+I1213 21:10:36.817032 70731 Server.cpp:244] A client has connected from 127.0.0.1:55696 (Server Port: 5869).
+I1213 21:10:36.817437 71036 Server.cpp:54] Client thread started for 127.0.0.1:55696 (Client ID: 2)
+I1213 21:10:39.882521 71036 Server.cpp:59] Received packet of type 5 from 127.0.0.1:55696 (Client ID: 2)
+I1213 21:10:39.882594 71036 Server.cpp:128] Sent client list to Client 2
+I1213 21:10:52.716944 71036 Server.cpp:59] Received packet of type 3 from 127.0.0.1:55696 (Client ID: 2)
+I1213 21:10:52.716995 71036 Server.cpp:104] Forwarded message from Client 2 to Client 1
+I1213 21:10:52.717029 71036 Server.cpp:148] Sent response to 127.0.0.1:55696 (Client ID: 2)
+I1213 21:12:40.054419 70954 Server.cpp:59] Received packet of type 4 from 127.0.0.1:55680 (Client ID: 1)
+I1213 21:12:40.054471 70954 Server.cpp:134] Client 127.0.0.1:55680 (ID: 1) requested disconnection.
+I1213 21:12:40.054569 70954 Server.cpp:152] Client 127.0.0.1:55680 (ID: 1) disconnected. Reason: Client requested disconnection.
+I1213 21:12:40.054596 70954 Server.cpp:161] Closed client connection for 127.0.0.1:55680 (Client ID: 1)
+I1213 21:19:26.948009 71036 Server.cpp:59] Received packet of type 4 from 127.0.0.1:55696 (Client ID: 2)
+I1213 21:19:26.953688 71036 Server.cpp:134] Client 127.0.0.1:55696 (ID: 2) requested disconnection.
+I1213 21:19:26.953809 71036 Server.cpp:152] Client 127.0.0.1:55696 (ID: 2) disconnected. Reason: Client requested disconnection.
+I1213 21:19:26.953838 71036 Server.cpp:161] Closed client connection for 127.0.0.1:55696 (Client ID: 2)
+I1213 21:19:41.188103 70731 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:19:41.188148 70731 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:19:41.188169 70731 Server.cpp:295] Server shut down gracefully.

@@ -1,0 +1,21 @@
+Log file created at: 2024/12/13 21:21:05
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:21:05.417518 73281 Server.cpp:168] Server starting on port 5869...
+I1213 21:21:05.418429 73281 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:21:05.418458 73281 Server.cpp:198] Binding successful on port 5869
+I1213 21:21:05.418476 73281 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:21:09.652715 73281 Server.cpp:244] A client has connected from 127.0.0.1:56812 (Server Port: 5869).
+I1213 21:21:09.652849 73326 Server.cpp:54] Client thread started for 127.0.0.1:56812 (Client ID: 1)
+I1213 21:21:11.992410 73326 Server.cpp:59] Received packet of type 4 from 127.0.0.1:56812 (Client ID: 1)
+I1213 21:21:11.992434 73326 Server.cpp:134] Client 127.0.0.1:56812 (ID: 1) requested disconnection.
+I1213 21:21:11.992530 73326 Server.cpp:152] Client 127.0.0.1:56812 (ID: 1) disconnected. Reason: Client requested disconnection.
+I1213 21:21:11.992559 73326 Server.cpp:161] Closed client connection for 127.0.0.1:56812 (Client ID: 1)
+I1213 21:21:15.406271 73281 Server.cpp:244] A client has connected from 127.0.0.1:56822 (Server Port: 5869).
+I1213 21:21:15.406383 73400 Server.cpp:54] Client thread started for 127.0.0.1:56822 (Client ID: 2)
+I1213 21:23:32.266557 73281 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:23:32.266652 73281 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:23:32.266703 73281 Server.cpp:280] Sent DISCONNECT to Client 2
+I1213 21:23:32.726208 73400 Server.cpp:152] Client 127.0.0.1:56822 (ID: 2) disconnected. Reason: Failed to receive packet length.
+I1213 21:23:32.726244 73400 Server.cpp:161] Closed client connection for 127.0.0.1:56822 (Client ID: 2)
+I1213 21:23:32.726305 73281 Server.cpp:295] Server shut down gracefully.

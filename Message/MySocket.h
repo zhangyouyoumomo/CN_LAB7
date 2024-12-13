@@ -16,7 +16,9 @@ enum MessageType : uint32_t {
     GET_NAME = 2,
     SEND_MESSAGE = 3,
     DISCONNECT = 4,
-    RESPONSE = 100 // 服务器响应
+    LIST_CLIENTS = 5,   // 新增：请求客户端列表
+    RESPONSE = 100,     // 服务器响应
+    CLIENT_LIST = 101   // 服务器响应的客户端列表
 };
 
 // 数据包结构

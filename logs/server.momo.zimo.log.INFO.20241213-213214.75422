@@ -1,0 +1,10 @@
+Log file created at: 2024/12/13 21:32:14
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:32:14.909509 75422 Server.cpp:168] Server starting on port 5869...
+I1213 21:32:14.909694 75422 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:32:14.909716 75422 Server.cpp:198] Binding successful on port 5869
+I1213 21:32:14.909736 75422 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:32:17.201720 75422 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:32:17.201769 75422 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:32:17.201786 75422 Server.cpp:295] Server shut down gracefully.

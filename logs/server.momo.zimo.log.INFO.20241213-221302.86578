@@ -1,0 +1,4 @@
+Log file created at: 2024/12/13 22:13:02
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 22:13:02.656653 86578 Server.cpp:168] Server starting on port 5869...

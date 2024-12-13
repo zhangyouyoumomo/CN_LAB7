@@ -1,0 +1,12 @@
+Log file created at: 2024/12/13 21:33:07
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:33:07.571293 75794 Client.cpp:267] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 34020).
+I1213 21:33:09.507831 75814 Client.cpp:212] 已发送请求类型 1
+I1213 21:33:09.508008 75813 Client.cpp:91] Received response from server: Fri Dec 13 21:33:09 2024
+ (Client Local Port: 34020).
+I1213 21:33:11.579757 75814 Client.cpp:212] 已发送请求类型 2
+I1213 21:33:11.579888 75813 Client.cpp:91] Received response from server: Zimo Server (Client Local Port: 34020).
+I1213 21:33:32.261948 75794 Client.cpp:31] Received exit signal (2). Shutting down client...
+I1213 21:33:54.157215 75794 Client.cpp:31] Received exit signal (1). Shutting down client...
+I1213 21:35:40.621219 75794 Client.cpp:299] 客户端已关闭。 (Client Local Port: 34020)

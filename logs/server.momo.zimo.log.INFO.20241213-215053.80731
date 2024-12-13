@@ -1,0 +1,25 @@
+Log file created at: 2024/12/13 21:50:53
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:50:53.779481 80731 Server.cpp:168] Server starting on port 5869...
+I1213 21:50:53.779649 80731 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:50:53.779657 80731 Server.cpp:198] Binding successful on port 5869
+I1213 21:50:53.779659 80731 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:51:04.514612 80731 Server.cpp:244] A client has connected from 127.0.0.1:60914 (Server Port: 5869).
+I1213 21:51:04.514747 80804 Server.cpp:54] Client thread started for 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:05.612483 80804 Server.cpp:59] Received packet of type 1 from 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:05.612576 80804 Server.cpp:148] Sent response to 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:06.336427 80804 Server.cpp:59] Received packet of type 1 from 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:06.336485 80804 Server.cpp:148] Sent response to 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:06.982172 80804 Server.cpp:59] Received packet of type 1 from 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:06.982231 80804 Server.cpp:148] Sent response to 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:07.367515 80804 Server.cpp:59] Received packet of type 1 from 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:07.367574 80804 Server.cpp:148] Sent response to 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:07.692144 80804 Server.cpp:59] Received packet of type 1 from 127.0.0.1:60914 (Client ID: 1)
+I1213 21:51:07.692200 80804 Server.cpp:148] Sent response to 127.0.0.1:60914 (Client ID: 1)
+I1213 21:52:05.217151 80731 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:52:05.217265 80731 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:52:05.217316 80731 Server.cpp:280] Sent DISCONNECT to Client 1
+I1213 21:52:05.217510 80804 Server.cpp:152] Client 127.0.0.1:60914 (ID: 1) disconnected. Reason: Failed to receive packet length.
+I1213 21:52:05.217535 80804 Server.cpp:161] Closed client connection for 127.0.0.1:60914 (Client ID: 1)
+I1213 21:52:05.217581 80731 Server.cpp:295] Server shut down gracefully.

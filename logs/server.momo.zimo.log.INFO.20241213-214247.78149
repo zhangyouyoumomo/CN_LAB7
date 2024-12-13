@@ -1,0 +1,23 @@
+Log file created at: 2024/12/13 21:42:47
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1213 21:42:47.440047 78149 Server.cpp:168] Server starting on port 5869...
+I1213 21:42:47.446651 78149 Server.cpp:184] Socket created successfully on port 5869.
+I1213 21:42:47.446691 78149 Server.cpp:198] Binding successful on port 5869
+I1213 21:42:47.446712 78149 Server.cpp:206] Server listening on port 5869 with max queue: 20
+I1213 21:42:57.182490 78149 Server.cpp:244] A client has connected from 127.0.0.1:34980 (Server Port: 5869).
+I1213 21:42:57.182629 78242 Server.cpp:54] Client thread started for 127.0.0.1:34980 (Client ID: 1)
+I1213 21:42:58.108346 78242 Server.cpp:59] Received packet of type 1 from 127.0.0.1:34980 (Client ID: 1)
+I1213 21:42:58.108444 78242 Server.cpp:148] Sent response to 127.0.0.1:34980 (Client ID: 1)
+I1213 21:43:00.591231 78242 Server.cpp:59] Received packet of type 2 from 127.0.0.1:34980 (Client ID: 1)
+I1213 21:43:00.591279 78242 Server.cpp:148] Sent response to 127.0.0.1:34980 (Client ID: 1)
+I1213 21:44:43.443311 78149 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:44:43.443395 78149 Server.cpp:267] Server socket closed. Waiting for client threads to finish...
+I1213 21:44:43.443468 78149 Server.cpp:280] Sent DISCONNECT to Client 1
+I1213 21:44:44.208823 78149 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:44:44.397118 78149 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:44:44.566058 78149 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:44:44.749418 78149 Server.cpp:31] Received exit signal (2). Shutting down server...
+I1213 21:44:47.428817 78242 Server.cpp:152] Client 127.0.0.1:34980 (ID: 1) disconnected. Reason: Failed to receive packet data.
+I1213 21:44:47.428911 78242 Server.cpp:161] Closed client connection for 127.0.0.1:34980 (Client ID: 1)
+I1213 21:44:47.429044 78149 Server.cpp:295] Server shut down gracefully.

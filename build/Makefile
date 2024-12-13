@@ -117,63 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Server
+# Target rules for targets named server
 
 # Build rule for target.
-Server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Server
-.PHONY : Server
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
 # fast build rule for target.
-Server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
-.PHONY : Server/fast
+server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
 
 #=============================================================================
-# Target rules for targets named Client
+# Target rules for targets named client
 
 # Build rule for target.
-Client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Client
-.PHONY : Client
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
 # fast build rule for target.
-Client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
-.PHONY : Client/fast
-
-#=============================================================================
-# Target rules for targets named clean_all
-
-# Build rule for target.
-clean_all: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_all
-.PHONY : clean_all
-
-# fast build rule for target.
-clean_all/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_all.dir/build.make CMakeFiles/clean_all.dir/build
-.PHONY : clean_all/fast
-
-#=============================================================================
-# Target rules for targets named run
-
-# Build rule for target.
-run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run
-.PHONY : run
-
-# fast build rule for target.
-run/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-.PHONY : run/fast
+client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
 
 Client/Client.o: Client/Client.cpp.o
 .PHONY : Client/Client.o
 
 # target to build an object file
 Client/Client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/Client/Client.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Client.cpp.o
 .PHONY : Client/Client.cpp.o
 
 Client/Client.i: Client/Client.cpp.i
@@ -181,7 +155,7 @@ Client/Client.i: Client/Client.cpp.i
 
 # target to preprocess a source file
 Client/Client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/Client/Client.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Client.cpp.i
 .PHONY : Client/Client.cpp.i
 
 Client/Client.s: Client/Client.cpp.s
@@ -189,7 +163,7 @@ Client/Client.s: Client/Client.cpp.s
 
 # target to generate assembly for a file
 Client/Client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/Client/Client.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Client.cpp.s
 .PHONY : Client/Client.cpp.s
 
 Server/Server.o: Server/Server.cpp.o
@@ -197,7 +171,7 @@ Server/Server.o: Server/Server.cpp.o
 
 # target to build an object file
 Server/Server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Server/Server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Server.cpp.o
 .PHONY : Server/Server.cpp.o
 
 Server/Server.i: Server/Server.cpp.i
@@ -205,7 +179,7 @@ Server/Server.i: Server/Server.cpp.i
 
 # target to preprocess a source file
 Server/Server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Server/Server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Server.cpp.i
 .PHONY : Server/Server.cpp.i
 
 Server/Server.s: Server/Server.cpp.s
@@ -213,7 +187,7 @@ Server/Server.s: Server/Server.cpp.s
 
 # target to generate assembly for a file
 Server/Server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/Server/Server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Server.cpp.s
 .PHONY : Server/Server.cpp.s
 
 # Help Target
@@ -224,10 +198,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... clean_all"
-	@echo "... run"
-	@echo "... Client"
-	@echo "... Server"
+	@echo "... client"
+	@echo "... server"
 	@echo "... Client/Client.o"
 	@echo "... Client/Client.i"
 	@echo "... Client/Client.s"

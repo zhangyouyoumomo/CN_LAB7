@@ -218,11 +218,11 @@ CN_LAB7_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 CN_LAB7_SOURCE_DIR:STATIC=/home/zimo/CN_LAB7
 
+//The directory containing a CMake configuration file for Glog.
+Glog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/glog
+
 //The directory containing a CMake configuration file for gflags.
 gflags_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gflags
-
-//The directory containing a CMake configuration file for glog.
-glog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/glog
 
 
 ########################

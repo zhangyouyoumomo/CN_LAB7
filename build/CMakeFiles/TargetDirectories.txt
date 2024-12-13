@@ -1,6 +1,4 @@
-/home/zimo/CN_LAB7/build/CMakeFiles/Server.dir
-/home/zimo/CN_LAB7/build/CMakeFiles/Client.dir
-/home/zimo/CN_LAB7/build/CMakeFiles/clean_all.dir
-/home/zimo/CN_LAB7/build/CMakeFiles/run.dir
+/home/zimo/CN_LAB7/build/CMakeFiles/server.dir
+/home/zimo/CN_LAB7/build/CMakeFiles/client.dir
 /home/zimo/CN_LAB7/build/CMakeFiles/edit_cache.dir
 /home/zimo/CN_LAB7/build/CMakeFiles/rebuild_cache.dir

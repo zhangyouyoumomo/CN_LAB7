@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/client.dir/Client/Client.cpp.o -o client  /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0 -lpthread /usr/lib/x86_64-linux-gnu/libunwind.so /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 

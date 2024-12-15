@@ -27,6 +27,7 @@ std::queue<Packet> msgQueue;
 std::atomic<bool> running(true);
 
 // 生产者线程：接收服务器数据
+int recvtime=0;
 void producer(MySocket& clientSocketObj, int localPort) {
     try {
         while (running) {
@@ -79,7 +80,9 @@ void consumer(int localPort) {
                           << localPort << ").";
             } else if (pkt.type == RESPONSE) {
                 std::cout << "\n====================\n";
+                recvtime++;
                 std::cout << "[服务器响应]: " << pkt.data << std::endl;
+                std::cout<<"recvtime=="<<recvtime<<std::endl;
                 std::cout << "====================\n";
                 LOG(INFO) << "Received response from server: " << pkt.data 
                           << " (Client Local Port: " << localPort << ").";
@@ -201,8 +204,17 @@ void handleUserInput(MySocket& clientSocketObj, int localPort, std::atomic<bool>
         // 发送请求到服务器
         if (choice >=1 && choice <=5) {
             try {
-                clientSocketObj.sendPacket(pkt);
-                LOG(INFO) << "已发送请求类型 " << pkt.type;
+                if(choice==1){
+                int times;
+                for(times=1;times<=100;times++){
+                    clientSocketObj.sendPacket(pkt);
+                }
+                std::cout << "send to server times =" <<times <<std::endl;
+                }
+                else{
+                    clientSocketObj.sendPacket(pkt);
+                    LOG(INFO) << "已发送请求类型 " << pkt.type;
+                }
             } catch (const std::exception& e) {
                 LOG(ERROR) << "发送数据失败: " << e.what();
                 runningFlag = false;

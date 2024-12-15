@@ -48,7 +48,7 @@ public:
         google::ShutdownGoogleLogging();
     }
 };
-
+int respnsetime=0;
 // 处理客户端请求的函数
 void handleClient(int clientId, std::shared_ptr<MySocket> clientSocketPtr, std::string clientIp, int clientPort) {
     LOG(INFO) << "Client thread started for " << clientIp << ":" << clientPort 
@@ -144,7 +144,9 @@ void handleClient(int clientId, std::shared_ptr<MySocket> clientSocketPtr, std::
             }
 
             // 发送响应
+            respnsetime++;
             clientSocketPtr->sendPacket(response);
+            std::cout<<"respnsetime=="<<respnsetime<<std::endl;
             LOG(INFO) << "Sent response to " << clientIp << ":" << clientPort 
                       << " (Client ID: " << clientId << ")";
         }

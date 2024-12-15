@@ -1,0 +1,208 @@
+Log file created at: 2024/12/15 20:59:43
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 20:59:43.440325 219357 Client.cpp:267] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 58914).
+I1215 20:59:52.717830 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.717870 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.767891 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.767930 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.767952 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.767974 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.767998 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768033 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768069 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768087 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768107 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768132 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768158 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768169 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768188 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768210 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768219 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768241 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768265 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768298 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768334 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768352 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768369 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768375 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768384 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768415 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768437 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768447 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768457 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768465 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768473 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768497 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768555 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768579 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768600 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768620 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768632 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768680 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768707 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768728 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768747 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768755 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768761 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768781 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768812 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768848 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768869 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768874 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768918 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768952 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.768973 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769029 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769049 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769073 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769080 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769088 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769109 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769132 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769152 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769187 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769223 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769246 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769291 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769301 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769346 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769356 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769377 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769385 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769392 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769399 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769407 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769415 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769449 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769483 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769522 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769565 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769590 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769639 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769687 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769708 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769726 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769732 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769743 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769789 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769798 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769804 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769809 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769817 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769840 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769861 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769868 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769884 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769918 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769940 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769961 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.769984 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.770045 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.770051 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.770056 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 20:59:52.770061 219375 Client.cpp:87] Received response from server: Sun Dec 15 20:59:52 2024
+ (Client Local Port: 58914).
+I1215 21:05:06.577476 219376 Client.cpp:188] Sent DISCONNECT request.
+I1215 21:05:06.577858 219374 Client.cpp:48] Producer thread exiting. Reason: Failed to receive packet length.
+I1215 21:05:06.578893 219375 Client.cpp:87] Received response from server: Disconnected successfully. (Client Local Port: 58914).
+I1215 21:05:06.598280 219357 Client.cpp:299] 客户端已关闭。 (Client Local Port: 58914)

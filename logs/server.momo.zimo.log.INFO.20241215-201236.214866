@@ -1,0 +1,15 @@
+Log file created at: 2024/12/15 20:12:36
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 20:12:36.786047 214866 Server.cpp:170] Server starting on port 5869...
+I1215 20:12:36.786727 214866 Server.cpp:186] Socket created successfully on port 5869.
+I1215 20:12:36.786743 214866 Server.cpp:199] Binding successful on port 5869
+I1215 20:12:36.786748 214866 Server.cpp:207] Server listening on port 5869 with max queue: 20
+I1215 20:12:48.637784 214866 Server.cpp:244] A client connected from 127.0.0.1:40124
+I1215 20:12:48.637935 214977 Server.cpp:52] Client thread started for 127.0.0.1:40124 (Client ID: 1)
+I1215 20:12:51.633901 214977 Server.cpp:58] Received packet of type 2 from 127.0.0.1:40124 (Client ID: 1)
+I1215 20:12:51.640779 214977 Server.cpp:154] Client 127.0.0.1:40124 (ID: 1) disconnected. Reason: basic_string::append: __pos (which is 32) > this->size() (which is 11)
+I1215 20:12:51.640818 214977 Server.cpp:163] Closed client connection for 127.0.0.1:40124 (Client ID: 1)
+I1215 20:14:41.626839 214866 Server.cpp:30] Received exit signal (2). Shutting down server...
+I1215 20:14:41.633301 214866 Server.cpp:263] Server socket closed. Waiting for client threads to finish...
+I1215 20:14:41.633342 214866 Server.cpp:290] Server shut down gracefully.

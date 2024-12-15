@@ -1,0 +1,306 @@
+Log file created at: 2024/12/15 18:09:40
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 18:09:40.285161 207850 Client.cpp:259] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 50912).
+I1215 18:09:50.324513 207884 Client.cpp:206] 已发送请求类型0times1
+I1215 18:09:50.324568 207884 Client.cpp:206] 已发送请求类型1times1
+I1215 18:09:50.324600 207884 Client.cpp:206] 已发送请求类型2times1
+I1215 18:09:50.324615 207884 Client.cpp:206] 已发送请求类型3times1
+I1215 18:09:50.324642 207884 Client.cpp:206] 已发送请求类型4times1
+I1215 18:09:50.324653 207884 Client.cpp:206] 已发送请求类型5times1
+I1215 18:09:50.324692 207884 Client.cpp:206] 已发送请求类型6times1
+I1215 18:09:50.324716 207884 Client.cpp:206] 已发送请求类型7times1
+I1215 18:09:50.324723 207884 Client.cpp:206] 已发送请求类型8times1
+I1215 18:09:50.324728 207884 Client.cpp:206] 已发送请求类型9times1
+I1215 18:09:50.324733 207884 Client.cpp:206] 已发送请求类型10times1
+I1215 18:09:50.324738 207884 Client.cpp:206] 已发送请求类型11times1
+I1215 18:09:50.324743 207884 Client.cpp:206] 已发送请求类型12times1
+I1215 18:09:50.324746 207884 Client.cpp:206] 已发送请求类型13times1
+I1215 18:09:50.324767 207884 Client.cpp:206] 已发送请求类型14times1
+I1215 18:09:50.324772 207884 Client.cpp:206] 已发送请求类型15times1
+I1215 18:09:50.324777 207884 Client.cpp:206] 已发送请求类型16times1
+I1215 18:09:50.324798 207884 Client.cpp:206] 已发送请求类型17times1
+I1215 18:09:50.324851 207884 Client.cpp:206] 已发送请求类型18times1
+I1215 18:09:50.324885 207884 Client.cpp:206] 已发送请求类型19times1
+I1215 18:09:50.324802 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324901 207884 Client.cpp:206] 已发送请求类型20times1
+I1215 18:09:50.324906 207884 Client.cpp:206] 已发送请求类型21times1
+I1215 18:09:50.324910 207884 Client.cpp:206] 已发送请求类型22times1
+I1215 18:09:50.324913 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324957 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324965 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324972 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324915 207884 Client.cpp:206] 已发送请求类型23times1
+I1215 18:09:50.324978 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324985 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.324991 207884 Client.cpp:206] 已发送请求类型24times1
+I1215 18:09:50.325011 207884 Client.cpp:206] 已发送请求类型25times1
+I1215 18:09:50.325028 207884 Client.cpp:206] 已发送请求类型26times1
+I1215 18:09:50.325033 207884 Client.cpp:206] 已发送请求类型27times1
+I1215 18:09:50.325037 207884 Client.cpp:206] 已发送请求类型28times1
+I1215 18:09:50.325039 207884 Client.cpp:206] 已发送请求类型29times1
+I1215 18:09:50.325055 207884 Client.cpp:206] 已发送请求类型30times1
+I1215 18:09:50.325073 207884 Client.cpp:206] 已发送请求类型31times1
+I1215 18:09:50.325078 207884 Client.cpp:206] 已发送请求类型32times1
+I1215 18:09:50.325078 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325111 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325155 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325081 207884 Client.cpp:206] 已发送请求类型33times1
+I1215 18:09:50.325194 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325205 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325217 207884 Client.cpp:206] 已发送请求类型34times1
+I1215 18:09:50.325320 207884 Client.cpp:206] 已发送请求类型35times1
+I1215 18:09:50.325330 207884 Client.cpp:206] 已发送请求类型36times1
+I1215 18:09:50.325333 207884 Client.cpp:206] 已发送请求类型37times1
+I1215 18:09:50.325336 207884 Client.cpp:206] 已发送请求类型38times1
+I1215 18:09:50.325338 207884 Client.cpp:206] 已发送请求类型39times1
+I1215 18:09:50.325341 207884 Client.cpp:206] 已发送请求类型40times1
+I1215 18:09:50.325348 207884 Client.cpp:206] 已发送请求类型41times1
+I1215 18:09:50.325350 207884 Client.cpp:206] 已发送请求类型42times1
+I1215 18:09:50.325354 207884 Client.cpp:206] 已发送请求类型43times1
+I1215 18:09:50.325356 207884 Client.cpp:206] 已发送请求类型44times1
+I1215 18:09:50.325359 207884 Client.cpp:206] 已发送请求类型45times1
+I1215 18:09:50.325362 207884 Client.cpp:206] 已发送请求类型46times1
+I1215 18:09:50.325366 207884 Client.cpp:206] 已发送请求类型47times1
+I1215 18:09:50.325369 207884 Client.cpp:206] 已发送请求类型48times1
+I1215 18:09:50.325372 207884 Client.cpp:206] 已发送请求类型49times1
+I1215 18:09:50.325376 207884 Client.cpp:206] 已发送请求类型50times1
+I1215 18:09:50.325378 207884 Client.cpp:206] 已发送请求类型51times1
+I1215 18:09:50.325381 207884 Client.cpp:206] 已发送请求类型52times1
+I1215 18:09:50.325384 207884 Client.cpp:206] 已发送请求类型53times1
+I1215 18:09:50.325407 207884 Client.cpp:206] 已发送请求类型54times1
+I1215 18:09:50.325412 207884 Client.cpp:206] 已发送请求类型55times1
+I1215 18:09:50.325415 207884 Client.cpp:206] 已发送请求类型56times1
+I1215 18:09:50.325418 207884 Client.cpp:206] 已发送请求类型57times1
+I1215 18:09:50.325421 207884 Client.cpp:206] 已发送请求类型58times1
+I1215 18:09:50.325424 207884 Client.cpp:206] 已发送请求类型59times1
+I1215 18:09:50.325433 207884 Client.cpp:206] 已发送请求类型60times1
+I1215 18:09:50.325451 207884 Client.cpp:206] 已发送请求类型61times1
+I1215 18:09:50.325454 207884 Client.cpp:206] 已发送请求类型62times1
+I1215 18:09:50.325457 207884 Client.cpp:206] 已发送请求类型63times1
+I1215 18:09:50.325460 207884 Client.cpp:206] 已发送请求类型64times1
+I1215 18:09:50.325464 207884 Client.cpp:206] 已发送请求类型65times1
+I1215 18:09:50.325466 207884 Client.cpp:206] 已发送请求类型66times1
+I1215 18:09:50.325469 207884 Client.cpp:206] 已发送请求类型67times1
+I1215 18:09:50.325471 207884 Client.cpp:206] 已发送请求类型68times1
+I1215 18:09:50.325474 207884 Client.cpp:206] 已发送请求类型69times1
+I1215 18:09:50.325477 207884 Client.cpp:206] 已发送请求类型70times1
+I1215 18:09:50.325480 207884 Client.cpp:206] 已发送请求类型71times1
+I1215 18:09:50.325484 207884 Client.cpp:206] 已发送请求类型72times1
+I1215 18:09:50.325486 207884 Client.cpp:206] 已发送请求类型73times1
+I1215 18:09:50.325489 207884 Client.cpp:206] 已发送请求类型74times1
+I1215 18:09:50.325492 207884 Client.cpp:206] 已发送请求类型75times1
+I1215 18:09:50.325496 207884 Client.cpp:206] 已发送请求类型76times1
+I1215 18:09:50.325512 207884 Client.cpp:206] 已发送请求类型77times1
+I1215 18:09:50.325517 207884 Client.cpp:206] 已发送请求类型78times1
+I1215 18:09:50.325520 207884 Client.cpp:206] 已发送请求类型79times1
+I1215 18:09:50.325523 207884 Client.cpp:206] 已发送请求类型80times1
+I1215 18:09:50.325526 207884 Client.cpp:206] 已发送请求类型81times1
+I1215 18:09:50.325529 207884 Client.cpp:206] 已发送请求类型82times1
+I1215 18:09:50.325534 207884 Client.cpp:206] 已发送请求类型83times1
+I1215 18:09:50.325538 207884 Client.cpp:206] 已发送请求类型84times1
+I1215 18:09:50.325541 207884 Client.cpp:206] 已发送请求类型85times1
+I1215 18:09:50.325544 207884 Client.cpp:206] 已发送请求类型86times1
+I1215 18:09:50.325273 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325593 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325629 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325636 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325644 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325649 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325655 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325661 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325667 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325673 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.325547 207884 Client.cpp:206] 已发送请求类型87times1
+I1215 18:09:50.325697 207884 Client.cpp:206] 已发送请求类型88times1
+I1215 18:09:50.325702 207884 Client.cpp:206] 已发送请求类型89times1
+I1215 18:09:50.325706 207884 Client.cpp:206] 已发送请求类型90times1
+I1215 18:09:50.325708 207884 Client.cpp:206] 已发送请求类型91times1
+I1215 18:09:50.325711 207884 Client.cpp:206] 已发送请求类型92times1
+I1215 18:09:50.325714 207884 Client.cpp:206] 已发送请求类型93times1
+I1215 18:09:50.325716 207884 Client.cpp:206] 已发送请求类型94times1
+I1215 18:09:50.325719 207884 Client.cpp:206] 已发送请求类型95times1
+I1215 18:09:50.325722 207884 Client.cpp:206] 已发送请求类型96times1
+I1215 18:09:50.325727 207884 Client.cpp:206] 已发送请求类型97times1
+I1215 18:09:50.325731 207884 Client.cpp:206] 已发送请求类型98times1
+I1215 18:09:50.325734 207884 Client.cpp:206] 已发送请求类型99times1
+I1215 18:09:50.326184 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326201 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326210 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326233 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326256 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326289 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326308 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326315 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326321 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326328 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326339 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326349 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326368 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326392 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326426 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326445 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326484 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326493 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326499 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326527 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326550 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326557 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326565 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326571 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326578 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326586 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326592 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326598 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326606 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326612 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326620 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.326629 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375675 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375703 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375711 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375741 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375751 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375777 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375814 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375854 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375895 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375931 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.375972 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376009 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376032 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376040 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376093 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376168 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376194 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376219 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376272 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376297 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376322 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376346 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376370 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376410 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376461 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376502 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376539 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376581 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376621 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376674 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376713 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376739 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376766 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376792 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376818 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376860 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376886 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376926 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376952 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.376977 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377018 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377056 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377099 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377125 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377152 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:09:50.377178 207883 Client.cpp:77] Received response from server: Sun Dec 15 18:09:50 2024
+ (Client Local Port: 50912).
+I1215 18:16:16.586437 207884 Client.cpp:185] Sent DISCONNECT request.
+I1215 18:16:16.647219 207850 Client.cpp:288] 客户端已关闭。 (Client Local Port: 50912)

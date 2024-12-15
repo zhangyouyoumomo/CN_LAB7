@@ -1,0 +1,14 @@
+Log file created at: 2024/12/15 17:16:10
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 17:16:10.006378 203987 Client.cpp:249] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 41810).
+I1215 17:20:08.232146 204049 Client.cpp:202] 已发送请求类型 1
+I1215 17:20:08.233098 204048 Client.cpp:75] Received response from server: Sun Dec 15 17:20:08 2024
+ (Client Local Port: 41810).
+I1215 17:22:40.990604 204049 Client.cpp:202] 已发送请求类型 2
+I1215 17:22:40.990918 204048 Client.cpp:75] Received response from server: Zimo Server (Client Local Port: 41810).
+I1215 17:23:14.439237 204049 Client.cpp:202] 已发送请求类型 2
+I1215 17:23:14.439491 204048 Client.cpp:75] Received response from server: Zimo Server (Client Local Port: 41810).
+I1215 17:32:41.230336 204048 Client.cpp:64] Received forwarded message #1 (Client Local Port: 41810).
+I1215 17:55:16.022585 204049 Client.cpp:183] Sent DISCONNECT request.
+I1215 17:55:16.084791 203987 Client.cpp:278] 客户端已关闭。 (Client Local Port: 41810)

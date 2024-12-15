@@ -1,0 +1,14 @@
+Log file created at: 2024/12/15 19:36:04
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 19:36:04.700954 213228 Server.cpp:170] Server starting on port 5869...
+I1215 19:36:04.707571 213228 Server.cpp:186] Socket created successfully on port 5869.
+I1215 19:36:04.707613 213228 Server.cpp:199] Binding successful on port 5869
+I1215 19:36:04.707633 213228 Server.cpp:207] Server listening on port 5869 with max queue: 20
+I1215 19:36:14.915580 213228 Server.cpp:244] A client connected from 127.0.0.1:48636
+I1215 19:36:14.915748 213320 Server.cpp:52] Client thread started for 127.0.0.1:48636 (Client ID: 1)
+I1215 19:40:19.167249 213320 Server.cpp:154] Client 127.0.0.1:48636 (ID: 1) disconnected. Reason: Failed to receive packet length.
+I1215 19:40:19.170394 213320 Server.cpp:163] Closed client connection for 127.0.0.1:48636 (Client ID: 1)
+I1215 19:40:20.704433 213228 Server.cpp:30] Received exit signal (2). Shutting down server...
+I1215 19:40:20.704501 213228 Server.cpp:263] Server socket closed. Waiting for client threads to finish...
+I1215 19:40:20.704531 213228 Server.cpp:290] Server shut down gracefully.

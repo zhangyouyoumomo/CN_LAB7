@@ -1,0 +1,63 @@
+Log file created at: 2024/12/15 17:14:07
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 17:14:07.269405 203657 Server.cpp:168] Server starting on port 5869...
+I1215 17:14:07.272687 203657 Server.cpp:184] Socket created successfully on port 5869.
+I1215 17:14:07.272775 203657 Server.cpp:197] Binding successful on port 5869
+I1215 17:14:07.272812 203657 Server.cpp:205] Server listening on port 5869 with max queue: 20
+I1215 17:14:30.245826 203657 Server.cpp:242] A client connected from 127.0.0.1:42448
+I1215 17:14:30.246018 203725 Server.cpp:52] Client thread started for 127.0.0.1:42448 (Client ID: 1)
+I1215 17:15:41.623009 203725 Server.cpp:58] Received packet of type 4 from 127.0.0.1:42448 (Client ID: 1)
+I1215 17:15:41.629510 203725 Server.cpp:134] Client 127.0.0.1:42448 (ID: 1) requested disconnection.
+I1215 17:15:41.629731 203725 Server.cpp:152] Client 127.0.0.1:42448 (ID: 1) disconnected. Reason: Client requested disconnection.
+I1215 17:15:41.629747 203725 Server.cpp:161] Closed client connection for 127.0.0.1:42448 (Client ID: 1)
+I1215 17:15:53.566475 203657 Server.cpp:242] A client connected from 127.0.0.1:50774
+I1215 17:15:53.566633 203906 Server.cpp:52] Client thread started for 127.0.0.1:50774 (Client ID: 2)
+I1215 17:16:00.315768 203906 Server.cpp:58] Received packet of type 4 from 127.0.0.1:50774 (Client ID: 2)
+I1215 17:16:00.315820 203906 Server.cpp:134] Client 127.0.0.1:50774 (ID: 2) requested disconnection.
+I1215 17:16:00.315891 203906 Server.cpp:152] Client 127.0.0.1:50774 (ID: 2) disconnected. Reason: Client requested disconnection.
+I1215 17:16:00.315913 203906 Server.cpp:161] Closed client connection for 127.0.0.1:50774 (Client ID: 2)
+I1215 17:16:10.006388 203657 Server.cpp:242] A client connected from 127.0.0.1:41810
+I1215 17:16:10.006534 204046 Server.cpp:52] Client thread started for 127.0.0.1:41810 (Client ID: 3)
+I1215 17:20:08.232192 204046 Server.cpp:58] Received packet of type 1 from 127.0.0.1:41810 (Client ID: 3)
+I1215 17:20:08.232795 204046 Server.cpp:148] Sent response to 127.0.0.1:41810 (Client ID: 3)
+I1215 17:22:40.990661 204046 Server.cpp:58] Received packet of type 2 from 127.0.0.1:41810 (Client ID: 3)
+I1215 17:22:40.990793 204046 Server.cpp:148] Sent response to 127.0.0.1:41810 (Client ID: 3)
+I1215 17:23:14.439249 204046 Server.cpp:58] Received packet of type 2 from 127.0.0.1:41810 (Client ID: 3)
+I1215 17:23:14.439368 204046 Server.cpp:148] Sent response to 127.0.0.1:41810 (Client ID: 3)
+I1215 17:27:14.652880 203657 Server.cpp:242] A client connected from 127.0.0.1:46366
+I1215 17:27:14.653968 204532 Server.cpp:52] Client thread started for 127.0.0.1:46366 (Client ID: 4)
+I1215 17:27:23.676808 204532 Server.cpp:58] Received packet of type 5 from 127.0.0.1:46366 (Client ID: 4)
+I1215 17:27:23.676903 204532 Server.cpp:128] Sent client list to Client 4
+I1215 17:28:08.606623 204532 Server.cpp:58] Received packet of type 4 from 127.0.0.1:46366 (Client ID: 4)
+I1215 17:28:08.606736 204532 Server.cpp:134] Client 127.0.0.1:46366 (ID: 4) requested disconnection.
+I1215 17:28:08.606907 204532 Server.cpp:152] Client 127.0.0.1:46366 (ID: 4) disconnected. Reason: Client requested disconnection.
+I1215 17:28:08.606958 204532 Server.cpp:161] Closed client connection for 127.0.0.1:46366 (Client ID: 4)
+I1215 17:28:21.029006 203657 Server.cpp:242] A client connected from 127.0.0.1:53026
+I1215 17:28:21.029138 204756 Server.cpp:52] Client thread started for 127.0.0.1:53026 (Client ID: 5)
+I1215 17:28:22.080334 204756 Server.cpp:58] Received packet of type 5 from 127.0.0.1:53026 (Client ID: 5)
+I1215 17:28:22.080406 204756 Server.cpp:128] Sent client list to Client 5
+I1215 17:28:51.055622 204756 Server.cpp:58] Received packet of type 5 from 127.0.0.1:53026 (Client ID: 5)
+I1215 17:28:51.055727 204756 Server.cpp:128] Sent client list to Client 5
+I1215 17:32:41.229902 204756 Server.cpp:58] Received packet of type 3 from 127.0.0.1:53026 (Client ID: 5)
+I1215 17:32:41.230010 204756 Server.cpp:103] Forwarded message from Client 5 to Client 3
+I1215 17:32:41.230053 204756 Server.cpp:148] Sent response to 127.0.0.1:53026 (Client ID: 5)
+I1215 17:51:07.048058 203657 Server.cpp:242] A client connected from 127.0.0.1:41670
+I1215 17:51:07.049786 205490 Server.cpp:52] Client thread started for 127.0.0.1:41670 (Client ID: 6)
+I1215 17:52:57.660568 205490 Server.cpp:58] Received packet of type 5 from 127.0.0.1:41670 (Client ID: 6)
+I1215 17:52:57.660651 205490 Server.cpp:128] Sent client list to Client 6
+I1215 17:53:07.657754 205490 Server.cpp:58] Received packet of type 4 from 127.0.0.1:41670 (Client ID: 6)
+I1215 17:53:07.657774 205490 Server.cpp:134] Client 127.0.0.1:41670 (ID: 6) requested disconnection.
+I1215 17:53:07.657963 205490 Server.cpp:152] Client 127.0.0.1:41670 (ID: 6) disconnected. Reason: Client requested disconnection.
+I1215 17:53:07.658002 205490 Server.cpp:161] Closed client connection for 127.0.0.1:41670 (Client ID: 6)
+I1215 17:54:55.751968 204756 Server.cpp:58] Received packet of type 4 from 127.0.0.1:53026 (Client ID: 5)
+I1215 17:54:55.752053 204756 Server.cpp:134] Client 127.0.0.1:53026 (ID: 5) requested disconnection.
+I1215 17:54:55.752133 204756 Server.cpp:152] Client 127.0.0.1:53026 (ID: 5) disconnected. Reason: Client requested disconnection.
+I1215 17:54:55.752161 204756 Server.cpp:161] Closed client connection for 127.0.0.1:53026 (Client ID: 5)
+I1215 17:55:16.022671 204046 Server.cpp:58] Received packet of type 4 from 127.0.0.1:41810 (Client ID: 3)
+I1215 17:55:16.022712 204046 Server.cpp:134] Client 127.0.0.1:41810 (ID: 3) requested disconnection.
+I1215 17:55:16.022831 204046 Server.cpp:152] Client 127.0.0.1:41810 (ID: 3) disconnected. Reason: Client requested disconnection.
+I1215 17:55:16.022862 204046 Server.cpp:161] Closed client connection for 127.0.0.1:41810 (Client ID: 3)
+I1215 17:55:18.780548 203657 Server.cpp:30] Received exit signal (2). Shutting down server...
+I1215 17:55:18.780597 203657 Server.cpp:261] Server socket closed. Waiting for client threads to finish...
+I1215 17:55:18.780778 203657 Server.cpp:288] Server shut down gracefully.

@@ -1,0 +1,6 @@
+Log file created at: 2024/12/14 10:49:33
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 10:49:33.576309 111241 Server.cpp:168] Server starting on port 5869...
+I1214 10:49:33.577971 111241 Server.cpp:184] Socket created successfully on port 5869.
+E1214 10:49:33.578040 111241 Server.cpp:194] Binding failed on port 5869

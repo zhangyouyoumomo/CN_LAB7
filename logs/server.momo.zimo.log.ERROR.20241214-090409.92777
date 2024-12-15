@@ -1,0 +1,4 @@
+Log file created at: 2024/12/14 09:04:09
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1214 09:04:09.167768 92777 Server.cpp:194] Binding failed on port 5869

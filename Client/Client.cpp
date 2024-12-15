@@ -25,15 +25,6 @@ std::mutex mtx;
 std::condition_variable cv;
 std::queue<Packet> msgQueue;
 std::atomic<bool> running(true);
-std::atomic<bool> terminator(false);
-
-// 退出处理函数
-void exitHandler(int signal) {
-    LOG(INFO) << "Received exit signal (" << signal << "). Shutting down client...";
-    //running = false;
-    terminator=true;
-    cv.notify_all();
-}
 
 // 生产者线程：接收服务器数据
 void producer(MySocket& clientSocketObj, int localPort) {
@@ -124,12 +115,7 @@ void handleUserInput(MySocket& clientSocketObj, int localPort, std::atomic<bool>
     while (runningFlag) {
         printMenu();
         int choice;
-        if(terminator) {
-            std::cout<<"begin terminate client"<<runningFlag<<"||"<<terminator<<std::endl;
-            break;
-        }
-        if(terminator) choice=6;
-        else if (!(std::cin >> choice)) {
+        if (!(std::cin >> choice)) {
             // 输入失败，可能是EOF或其他原因
             if (!runningFlag) {
                 break;
@@ -239,11 +225,6 @@ int main(int argc, char* argv[]) {
     FLAGS_colorlogtostderr = true;
     FLAGS_stop_logging_if_full_disk = true;
     google::InstallFailureSignalHandler();
-
-    // 注册信号处理函数
-    std::signal(SIGINT, exitHandler);  // Ctrl + C
-    std::signal(SIGQUIT, exitHandler); // Ctrl + '\'
-    std::signal(SIGHUP, exitHandler);  // 用户注销
 
     MySocket clientSocketObj;
 

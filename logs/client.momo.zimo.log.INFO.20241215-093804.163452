@@ -1,0 +1,11 @@
+Log file created at: 2024/12/15 09:38:04
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 09:38:04.516705 163452 Client.cpp:249] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 48176).
+I1215 09:39:03.759503 163903 Client.cpp:202] 已发送请求类型 1
+I1215 09:39:03.759804 163902 Client.cpp:75] Received response from server: Sun Dec 15 09:39:03 2024
+ (Client Local Port: 48176).
+I1215 09:39:35.311955 163903 Client.cpp:202] 已发送请求类型 2
+I1215 09:39:35.312124 163902 Client.cpp:75] Received response from server: Zimo Server (Client Local Port: 48176).
+I1215 17:06:08.653575 163903 Client.cpp:183] Sent DISCONNECT request.
+I1215 17:06:08.680567 163452 Client.cpp:278] 客户端已关闭。 (Client Local Port: 48176)

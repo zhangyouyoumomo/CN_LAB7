@@ -1,0 +1,10 @@
+Log file created at: 2024/12/15 08:34:20
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 08:34:20.876843 150963 Client.cpp:257] [Info] 已连接到服务器 127.0.0.1:20245869 (Client Local Port: 35726).
+I1215 08:34:24.587162 150983 Client.cpp:207] 已发送请求类型 5
+I1215 08:34:24.587450 150982 Client.cpp:80] Received client list from server (Client Local Port: 35726).
+I1215 08:34:34.259953 150983 Client.cpp:207] 已发送请求类型 3
+I1215 08:34:34.260169 150982 Client.cpp:86] Received response from server: Message sent to client 1. (Client Local Port: 35726).
+I1215 08:34:46.514817 150983 Client.cpp:187] Sent DISCONNECT request.
+I1215 08:34:46.516232 150963 Client.cpp:289] 客户端已关闭。 (Client Local Port: 35726)

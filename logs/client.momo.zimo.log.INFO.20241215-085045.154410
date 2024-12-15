@@ -1,0 +1,9 @@
+Log file created at: 2024/12/15 08:50:45
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 08:50:45.274190 154410 Client.cpp:249] [Info] 已连接到服务器 127.0.0.1:20245869 (Client Local Port: 41806).
+I1215 08:51:02.915753 154429 Client.cpp:202] 已发送请求类型 5
+I1215 08:51:02.915937 154428 Client.cpp:70] Received client list (Client Local Port: 41806).
+I1215 08:51:09.965392 154428 Client.cpp:64] Received forwarded message #1 (Client Local Port: 41806).
+I1215 08:54:51.643888 154429 Client.cpp:183] Sent DISCONNECT request.
+I1215 08:54:51.658152 154410 Client.cpp:278] 客户端已关闭。 (Client Local Port: 41806)

@@ -1,0 +1,4 @@
+Log file created at: 2024/12/15 19:36:14
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 19:36:14.915529 213253 Client.cpp:259] [Info] 已连接到服务器 127.0.0.1:5869 (Client Local Port: 48636).

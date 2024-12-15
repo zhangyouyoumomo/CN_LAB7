@@ -1,0 +1,31 @@
+Log file created at: 2024/12/15 08:50:14
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 08:50:14.014983 154156 Server.cpp:168] Server starting on port 20245869...
+I1215 08:50:14.015159 154156 Server.cpp:184] Socket created successfully on port 20245869.
+I1215 08:50:14.015184 154156 Server.cpp:197] Binding successful on port 20245869
+I1215 08:50:14.015201 154156 Server.cpp:205] Server listening on port 20245869 with max queue: 20
+I1215 08:50:21.106781 154156 Server.cpp:242] A client connected from 127.0.0.1:44588
+I1215 08:50:21.106930 154212 Server.cpp:52] Client thread started for 127.0.0.1:44588 (Client ID: 1)
+I1215 08:50:22.880019 154212 Server.cpp:58] Received packet of type 1 from 127.0.0.1:44588 (Client ID: 1)
+I1215 08:50:22.880113 154212 Server.cpp:148] Sent response to 127.0.0.1:44588 (Client ID: 1)
+I1215 08:50:33.965144 154212 Server.cpp:58] Received packet of type 2 from 127.0.0.1:44588 (Client ID: 1)
+I1215 08:50:33.965201 154212 Server.cpp:148] Sent response to 127.0.0.1:44588 (Client ID: 1)
+I1215 08:50:45.274209 154156 Server.cpp:242] A client connected from 127.0.0.1:41806
+I1215 08:50:45.274871 154430 Server.cpp:52] Client thread started for 127.0.0.1:41806 (Client ID: 2)
+I1215 08:51:02.915769 154430 Server.cpp:58] Received packet of type 5 from 127.0.0.1:41806 (Client ID: 2)
+I1215 08:51:02.915850 154430 Server.cpp:128] Sent client list to Client 2
+I1215 08:51:09.965217 154212 Server.cpp:58] Received packet of type 3 from 127.0.0.1:44588 (Client ID: 1)
+I1215 08:51:09.965293 154212 Server.cpp:103] Forwarded message from Client 1 to Client 2
+I1215 08:51:09.965335 154212 Server.cpp:148] Sent response to 127.0.0.1:44588 (Client ID: 1)
+I1215 08:54:51.643904 154430 Server.cpp:58] Received packet of type 4 from 127.0.0.1:41806 (Client ID: 2)
+I1215 08:54:51.643977 154430 Server.cpp:134] Client 127.0.0.1:41806 (ID: 2) requested disconnection.
+I1215 08:54:51.644203 154430 Server.cpp:152] Client 127.0.0.1:41806 (ID: 2) disconnected. Reason: Client requested disconnection.
+I1215 08:54:51.644235 154430 Server.cpp:161] Closed client connection for 127.0.0.1:41806 (Client ID: 2)
+I1215 08:54:54.595716 154212 Server.cpp:58] Received packet of type 4 from 127.0.0.1:44588 (Client ID: 1)
+I1215 08:54:54.595749 154212 Server.cpp:134] Client 127.0.0.1:44588 (ID: 1) requested disconnection.
+I1215 08:54:54.595813 154212 Server.cpp:152] Client 127.0.0.1:44588 (ID: 1) disconnected. Reason: Client requested disconnection.
+I1215 08:54:54.595832 154212 Server.cpp:161] Closed client connection for 127.0.0.1:44588 (Client ID: 1)
+I1215 08:55:00.276680 154156 Server.cpp:30] Received exit signal (2). Shutting down server...
+I1215 08:55:00.276736 154156 Server.cpp:261] Server socket closed. Waiting for client threads to finish...
+I1215 08:55:00.276762 154156 Server.cpp:288] Server shut down gracefully.

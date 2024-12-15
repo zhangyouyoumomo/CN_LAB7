@@ -1,0 +1,4 @@
+Log file created at: 2024/12/15 18:16:27
+Running on machine: momo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 18:16:27.824738 208248 Client.cpp:291] Client chose not to connect to the server.
